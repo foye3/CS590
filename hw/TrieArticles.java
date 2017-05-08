@@ -1,3 +1,4 @@
+package hw;
 
 import java.io.BufferedReader;
 
@@ -85,7 +86,7 @@ public class TrieArticles {
 	}
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader brComp = new BufferedReader(new FileReader("src/companies.dat"));	//compaines.dat
+		BufferedReader brComp = new BufferedReader(new FileReader("src/hw/companies.dat"));	//compaines.dat
 		TrieArticles ta = new TrieArticles();
 		String s;
 		while ((s = brComp.readLine()) != null) {
